@@ -6,4 +6,13 @@
 
     <!-- -*- extra stuff goes here -*- -->
 
+    <plone:behavior
+        title="Campaigns"
+        description="Related Campaigns Field"
+        provides=".campaigns.ICampaigns"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".campaigns.ICampaigns"
+        />
+
+
 </configure>

@@ -34,6 +34,7 @@ setup(name='sinarngo.campaign',
           'plone.app.multilingual',
           'plone.multilingualbehavior',
           'plone.app.versioningbehavior',
+          'plone.app.relationfield',
           'five.pt',
           # -*- Extra requirements: -*-
       ],
