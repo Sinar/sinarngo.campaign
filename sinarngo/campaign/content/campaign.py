@@ -40,17 +40,7 @@ class ICampaign(form.Schema, IImageScaleTraversable):
                               description=u'Brief description '
                               'or summary of campaign.')
 
-    start = schema.Datetime(
-        title=_(u"Campaign start"),
-        required=False,
-    )
-
-    end = schema.Datetime(
-        title=_(u"Campaign end"),
-        required=False,
-    )
-
-#picture
-#caption
+    dexteritytextindexer.searchable('body')
+    body = RichText(title=u'Details of Campaign')
 
 alsoProvides(ICampaign, IFormFieldProvider)
