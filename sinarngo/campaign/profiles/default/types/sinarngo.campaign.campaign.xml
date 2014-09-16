@@ -48,7 +48,7 @@
   <element value="collective.sliderfields.behavior.sliderimage.ISliderImage"/>
   <element value="idwf.affiliate.behavior.affiliates.IAffiliates"/>
   <element value="plone.app.dexterity.behaviors.discussion.IAllowDiscussion"/>
-  <element value="wcc.churches.behavior.location.ILocationTags"/>
+  <element value="sinarngo.location.behavior.IRelatedCountries"/>
  </property>
  <property
     name="schema">sinarngo.campaign.content.campaign.ICampaign</property>
