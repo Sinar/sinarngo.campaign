@@ -13,6 +13,8 @@ TODO
 
 - Portlet and view to show related campaigns that use related campaign
   behavior.
+- Possibly better template, default collection showing all stories,
+  activities on a map
 
 Credits
 -------
